@@ -1,0 +1,242 @@
+
+    <!DOCTYPE html>
+    <html>
+        <head>    
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <title>Charity's Blog</title>
+            <style>
+    
+                .first{
+                    font-family:cursive;
+                    font-style: oblique;
+                    font-size: 70px;
+                    font-weight: bold;
+                    color: rgb(4, 51, 206);
+                    text-align: center;
+                }
+            
+                .buttons:hover{  
+                    cursor: pointer; 
+                    transition: opacity 0.15s;
+                    opacity: 0.8;
+            
+            
+                }
+            
+                .button1{
+                    text-align: center;
+                    background-color: rgb(4, 20, 163);
+                    color: white;
+                    border: none;
+                    height: 30px;
+                    width: 100px;
+                    border-radius: 3px;
+                    margin: 8px;
+                    display: inline-block;
+                    margin-left:400px ;
+                    margin-right: 50px; 
+                    padding-top: 8px;
+            
+                }
+            
+            
+                .button2{
+                text-align: center;
+                background-color: rgb(10, 57, 186);
+                color: white;
+                border: none;
+                height: 30px;
+                width: 100px;
+                border-radius: 3px;
+                cursor: pointer;
+                margin: 8px;
+                transition: opacity 0.15s;
+                display: inline-block;
+                padding-top: 8px;
+            
+            
+            
+            
+                }
+            
+                .button3{
+                    text-align: center;
+                    background-color: rgb(10, 40, 212);
+                    color: white;
+                    border: none;
+                    height: 30px;
+                    width: 100px;
+                    border-radius: 3px;
+                    cursor: pointer;
+                    margin: 8px;
+                    transition: opacity 0.15s;
+                    display: inline-block;
+                    margin-left:50px;
+                    padding-top: 8px;
+                    margin-bottom: 40px;
+            
+            
+            
+                }
+            
+                .fifth{
+                    display: block;
+                    font-size: 40px;
+            
+                }
+            
+                .sixth{
+                    display:inline-block;
+                    font-family: cursive;
+                    font-size: 40px;
+                    margin-bottom: 20px;
+                    margin-top: 10px;
+                }
+            
+                .seventh{
+                    display: block;
+                    width: 300px;
+                }
+            
+                .eighth{
+                    text-align: center;
+                    font-size: large;
+            
+                }
+            
+                .space1{
+                    width: 400px;
+                }
+            
+                .space2{
+                    width: 400px;
+                    display: block;
+                }
+            
+                .me{
+                    width: 200px;
+                    height: 200px;
+                    display: block;
+                    border-radius: 100px;
+                    text-align: center;
+                }
+            
+                .searchbar{
+                    height: 40px;
+                    width: 250px;
+            
+                }
+                    
+                .about{
+                    display: inline-block;
+                    width: 300px;
+                    height: 300px;
+                    vertical-align: top;
+        
+                }
+            
+                .posts{
+                    display: inline-block;
+                    width: 400px;
+                    vertical-align: top;
+                    margin-right: 300px;
+                    margin-left: 100px;
+                }    
+            
+                .grid{
+                    display: grid;
+                    grid-template-columns: 400px 200px;
+                    column-gap: 400px;
+            
+                }
+                
+                .postbar{
+                    margin-bottom: 10px;
+                    height: 30px;
+                    width: 150px;
+                    border-color: blue;
+                    border-radius:3px ;
+                }
+    
+                .body{
+                    
+                   background-color: antiquewhite;
+                   background-image: linear-gradient(to right,#1E2025, #3C5665, #92A4B1);
+                }
+            
+            
+            </style>
+        </head>
+        <body class="body">
+            
+            <nav>
+                <div>
+                    <p class="first">
+                        ASTRO Blog 🚀
+                    </p>
+                   <span class="buttons">
+                     <p class="button1">Home💫 </p> 
+                    </span>
+                   <span class="buttons">
+                     <p class="button2">Blog 🌌 </p>
+                  </span>
+                  <span class="buttons">
+                     <p class="button3">About🌙 </p>
+                  </span>
+               
+                </div>
+            </nav>
+            <main>
+                <div class="grid">
+                  <div class="posts">
+                        <input class="postbar" placeholder="Search For a Post🌙">
+                        <img class="space1" src="thumbnails/space1.jpg" alt="astronaunt">
+                        <p class="third">
+                            Lorem ipsum dolor
+                        </p>
+                        <p> 
+                            2.1M views &#183; 1 day ago
+                        </p>
+                
+                        <img class="space2" src="thumbnails/4k-space.jpg" alt="astronaunt"
+                        <p class="fifth">
+                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, sapiente reiciendis dignissimos inventore eveniet !
+                        </p>
+                        <p>
+                            4.5M views &#183; 1 month ago
+                        </p>
+                 
+                
+                    </div>
+                    <div class="about">  
+                        <p class="sixth">
+                            About Me 👩🏻‍🚀 
+                        </p>
+                        <div> 
+                             <img class="me" src="thumbnails/me.png"
+                        </div>
+                        <div>
+                            <p class="seventh">
+                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat eius nesciun.
+                           </p>
+                           <input class="searchbar" type="text" placeholder="Ask me anything about Space🚀! ">
+                
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <div>
+                    <p class="eighth">
+                        <a href="#" >Twitter</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                    </p>
+                </div>
+                   
+    
+            </footer>
+        </body>
+    </html>

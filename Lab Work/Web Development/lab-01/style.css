@@ -1,0 +1,170 @@
+
+.first{
+    font-family:cursive;
+    font-style: oblique;
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(4, 51, 206);
+    text-align: center;
+}
+
+.buttons{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.buttons:hover{  
+    cursor: pointer; 
+    transition: opacity 0.15s;
+    opacity: 0.8;
+
+
+}
+
+.button1{
+    text-align: center;
+    background-color: rgb(4, 20, 163);
+    color: white;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 3px;
+    margin: 8px;
+    display: inline-block;
+    margin-left:500px ;
+    margin-right: 50px; 
+    padding-top: 8px;
+
+}
+
+
+.button2{
+text-align: center;
+background-color: rgb(10, 57, 186);
+color: white;
+border: none;
+height: 30px;
+width: 100px;
+border-radius: 3px;
+cursor: pointer;
+margin: 8px;
+transition: opacity 0.15s;
+display: inline-block;
+padding-top: 8px;
+
+
+
+
+}
+
+.button3{
+    text-align: center;
+    background-color: rgb(10, 40, 212);
+    color: white;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 8px;
+    transition: opacity 0.15s;
+    display: inline-block;
+    margin-left:50px;
+    padding-top: 8px;
+    margin-bottom: 40px;
+
+
+
+}
+
+.third{
+    display: block;
+    font-size: 25px;
+}
+
+.fifth{
+    display: block;
+    font-size: 25px;
+
+}
+
+.sixth{
+    display:inline-block;
+    font-family: cursive;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.seventh{
+    display: block;
+    width: 300px;
+    font-size: 30px;
+}
+
+.eighth{
+    text-align: center;
+    font-size: large;
+
+}
+
+.space1{
+    width: 400px;
+}
+
+.space2{
+    width: 400px;
+    display: block;
+}
+
+.me{
+    width: 200px;
+    height: 200px;
+    display: block;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.searchbar{
+    height: 40px;
+    width: 250px;
+
+}
+    
+.about{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    vertical-align: top;
+
+}
+
+.posts{
+    display: inline-block;
+    width: 400px;
+    vertical-align: top;
+    margin-right: 300px;
+    margin-left: 100px;
+}    
+
+.grid{
+    display: grid;
+    grid-template-columns: 400px 200px;
+    column-gap: 400px;
+
+}
+
+.postbar{
+    margin-bottom: 10px;
+    height: 30px;
+    width: 150px;
+    border-color: blue;
+    border-radius:3px ;
+}
+
+.body{
+    
+   background-color: antiquewhite;
+   background-image: linear-gradient(to right,#1E2025, #3C5665, #92A4B1);
+}

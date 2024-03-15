@@ -5,7 +5,7 @@
     }  
 body{
     background: #c9e7f0;
-
+    overflow: hidden;
 }
 
 header{
@@ -73,7 +73,7 @@ header a{
     position: absolute;
     bottom: 0;
     padding: 165px 440px;
-    font-weight: 150;
+    font-weight: bold 150px;
     font-size: 40px;
     font-family: sans-serif;
     }
@@ -109,6 +109,6 @@ footer a{
     padding: 15px;
     font-size: x-large;
     font-family: sans-serif;
-    color: #392c58;
+    color: blue;
     }
 

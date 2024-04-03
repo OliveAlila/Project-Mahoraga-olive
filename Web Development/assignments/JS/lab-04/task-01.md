@@ -2,7 +2,7 @@
 
 ## <u>Instructions</u>
 
-- Do the following tasks below. Each task should be done in its own file. For tasks with more than one file, make a folder for that task. If anything is unclear ask. 
+- Do the following tasks below. Each task should be done in its own file. For tasks with more than one file, make a folder for that task. If anything is unclear ask.
 
 ## <u>Tasks</u>
 

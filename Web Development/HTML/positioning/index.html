@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .container {
+            background-color: blueviolet;
+            margin: 50px;
+            padding: 50px;
+        }
+
+        .inner-container {
+            background-color: chartreuse;
+            padding: 40px;
+            position: relative;
+        }
+
+        .box {
+            padding: 20px;
+            width: 40px;
+        }
+
+        .red {
+            background-color: red;
+            position: absolute;
+            right: 10px;
+            left: 20px;
+            top: 30px;
+            bottom: 50px;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+    </style>
+    <title>Positioning</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="inner-container">
+            <div class="box red"></div>
+            <div class="box blue"></div>
+        </div>
+    </div>
+</body>
+
+</html>

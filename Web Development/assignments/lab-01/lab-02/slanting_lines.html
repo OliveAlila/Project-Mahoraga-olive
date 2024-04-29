@@ -6,18 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parallelogram Shape</title>
     <style>
-        .parallelogram {
+        .left {
             width: 200px;
             height: 100px;
-            background-color: #3498db;
+            transform: skew(-20deg);
+            border-left: 5px solid black;
+            position: absolute;
+            left: 125px;
+            top: 70px;
+        }
+
+        .right {
+            width: 200px;
+            height: 100px;
             transform: skew(20deg);
-            margin: 50px auto;
+            border-left: 5px solid black;
+            position: absolute;
+            top: 70px;
+            left: 260px;
+        }
+
+        .bottom1 {
+            width: 100px;
+            height: 20px;
+            border-bottom: 5px solid black;
+            position: absolute;
+            top: 145px;
+        }
+
+        .bottom2 {
+            width: 100px;
+            height: 20px;
+            border-bottom: 5px solid black;
+            position: absolute;
+            left: 200px;
+            top: 145px;
+            left: 280px;
+        }
+
+        .top {
+            width: 100px;
+            height: 20px;
+            border-bottom: 5px solid black;
+            position: absolute;
+            left: 145px;
+            top: 50px;
         }
     </style>
 </head>
 
 <body>
-    <div class="parallelogram"></div>
+    <div class="bottom1"></div>
+    <div class="left"></div>
+    <div class="top"></div>
+    <div class="right"></div>
+    <div class="bottom2"></div>
 </body>
 
 </html>

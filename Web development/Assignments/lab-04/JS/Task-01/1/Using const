@@ -1,0 +1,5 @@
+/*Variables declared with const cannot be redeclared or reassigned */
+/* Variables declared with const have block scope*/
+
+const isApproved = true;
+/*A boolean datatype*/

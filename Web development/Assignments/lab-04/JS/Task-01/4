@@ -1,0 +1,7 @@
+Scope:Is the current context of code,which determines the accessibility of variables to JavaScript.
+    There are two types of scopes;
+        1.Local scope - In which variablea are inside a function or ablock and can only be accessed within that function.
+        2.Global scope - Where variabes are declared outside a function or a block and can be accessed from anywhere within the JavaScript code including within functions or blocks.
+
+Hoisting : Is a built-in behaviour of the language through which declarations of functions,variables and classes are moved to the top of their 
+           respective scopes before code execution.One can declare and use functions and variables anywhere within their code.

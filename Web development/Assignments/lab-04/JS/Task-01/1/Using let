@@ -1,0 +1,8 @@
+/*Variables with let cannot be redeclared unlike variables declared with var but they can be reassigned  */
+/*Variables declared with let have block scope and can only be accessed within the block they're declared in */
+let person = {
+    name:'Olive',
+    age:18
+};
+/*Object datatype is stored in the variable */
+console.log(person)

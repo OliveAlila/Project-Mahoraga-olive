@@ -11,11 +11,3 @@
 TO DO:
 1. main args
 2. header files
-
-
-
-ASSIGNMENTS:
-1. read on preprocessors
-2. float vs double
-3. read on datatypes
-4. formal definition of an array

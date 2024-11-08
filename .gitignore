@@ -2,3 +2,5 @@ venv/
 
 compiled-programs/
 *.out
+
+.vscode/
